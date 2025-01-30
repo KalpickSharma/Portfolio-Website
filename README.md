@@ -8,7 +8,7 @@ Do check it out!
 I have modified the gsap club plugins with the trial plugins, but with the trial plugin you cannot host it🔴. So for Club plugins, Check out here: https://gsap.com/docs/v3/Installation/
 
 **Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a8eb66ce-467e-4a70-9552-eca7eb88adc7/deploy-status)](https://app.netlify.com/sites/portfolio-kalpicksharma/deploys)
 
 
 ## License
