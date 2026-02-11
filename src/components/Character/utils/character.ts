@@ -30,6 +30,7 @@ const setCharacter = (
             await renderer.compileAsync(character, camera, scene);
             character.traverse((child: any) => {
               if (child.isMesh) {
+                console.log("Model Mesh Name:", child.name);
                 // Apply a subtle smile if morph targets are available
                 if (child.morphTargetInfluences && child.morphTargetDictionary) {
                   const smile = child.morphTargetDictionary["mouthSmile"];
