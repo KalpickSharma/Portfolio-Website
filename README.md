@@ -2,6 +2,7 @@
 
 This repository contains the open source version of my porfolio website. (Inspiration @Mocydev)
 Do check it out!
+![HA9wspHbgAA_LiN](https://github.com/user-attachments/assets/35e0f649-abc6-4e89-a98d-04d4b22a10f9)
 
 ## Instructions 🛠️
 
