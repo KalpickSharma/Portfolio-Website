@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kalpick.com</loc>
+    <loc>https://kalpicksharma.netlify.app</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kalpick.com/#about</loc>
+    <loc>https://kalpicksharma.netlify.app/#about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kalpick.com/#work</loc>
+    <loc>https://kalpicksharma.netlify.app/#work</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kalpick.com/#contact</loc>
+    <loc>https://kalpicksharma.netlify.app/#contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kalpick.com/#career</loc>
+    <loc>https://kalpicksharma.netlify.app/#career</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
