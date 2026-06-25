@@ -2,7 +2,7 @@ import "./styles/Career.css";
 
 const Career = () => {
   return (
-    <div className="career-section section-container">
+    <div className="career-section section-container" id="career">
       <div className="career-container">
         <h2>
           My career <span>&</span>
@@ -11,6 +11,32 @@ const Career = () => {
         <div className="career-info">
           <div className="career-timeline">
             <div className="career-dot"></div>
+          </div>
+
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Founder</h4>
+                <h5>AlloyTrik</h5>
+              </div>
+              <h3>2025</h3>
+            </div>
+            <p>
+              Alloytrik bridges the gap between digital connections and real-world relationships by creating spaces for collaboration, creativity, and community growth.
+            </p>
+          </div>
+
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>UI/UX Intern</h4>
+                <h5>Proxenix</h5>
+              </div>
+              <h3>2025</h3>
+            </div>
+            <p>
+              Contributed to dashboard UI and paint gallery website design. Assisted in research, wireframing, and visual interface creation using Figma.
+            </p>
           </div>
 
           <div className="career-info-box">

@@ -99,6 +99,7 @@ const WhatIDo = () => {
   <div className="what-tags">Web3</div>
   <div className="what-tags">IoT</div>
   <div className="what-tags">Cybersecurity</div>
+  <div className="what-tags">Python</div>
 </div>
               <div className="what-arrow"></div>
             </div>
@@ -125,7 +126,7 @@ const WhatIDo = () => {
               <h3>DESIGN</h3>
               <h4>Description</h4>
               <p>
-              Kalpick Sharma is a freelance graphic designer with 3 years of expertise in logo design and brand identities.
+              Kalpick Sharma is a freelance graphic designer with 5 years of expertise in logo design and brand identities.
                His work, featured on Instagram, Dribbble, and Pinterest, showcases creativity and precision. 
               He collaborates with communities to deliver impactful visual storytelling.
               </p>

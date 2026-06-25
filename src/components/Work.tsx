@@ -36,7 +36,25 @@ const Work = () => {
       type: "image",
       aspectRatio: "16/9",
       link: "https://kalpicksharma.github.io/Landing-Page-Charge-edu-tech/"
-    }
+    },
+    {
+      title: "AlloyTrik",
+      category: "Web Development/Website",
+      tools: "React, TypeScript",
+      image: "/images/alloytrik.png",
+      type: "image",
+      aspectRatio: "16/9",
+      link: "https://github.com/KalpickSharma/AlloyTrik.git"
+    },
+    {
+      title: "Meet Prototype",
+      category: "Progressive Web Application",
+      tools: "HTML, JavaScript, Render",
+      image: "/images/meet-prototype.png",
+      type: "image",
+      aspectRatio: "16/9",
+      link: "https://github.com/KalpickSharma/meet-prototype.git"
+    },
   ];
 
   return (

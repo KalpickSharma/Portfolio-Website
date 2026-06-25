@@ -98,7 +98,7 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="/Kalpick (2).pdf"
+            href="/KResumedev2.pdf"
             target="_blank"
             download
             data-cursor="disable"
@@ -107,7 +107,7 @@ const SocialIcons = () => {
           </a>
         </span>
       </div>
-      <a className="resume-button" href="#">
+      <a className="resume-button" href="#KResumedev2.pdf" target="_blank" download>
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />

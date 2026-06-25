@@ -14,7 +14,9 @@
   top: 100%;
   left: 0;
 }
-.hover-link:hover .hover-in {
+.hover-link:hover .hover-in,
+a:hover .hover-in,
+button:hover .hover-in {
   transform: translateY(-100%);
   color: var(--accentColor);
 }

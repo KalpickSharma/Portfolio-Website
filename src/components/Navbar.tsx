@@ -66,6 +66,11 @@ const Navbar = () => {
               <HoverLinks text="CONTACT" />
             </a>
           </li>
+          <li>
+            <a href="#career">
+              <HoverLinks text="CAREER" />
+            </a>
+          </li>
         </ul>
       </div>
 

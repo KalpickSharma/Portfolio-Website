@@ -4,6 +4,9 @@
   margin: auto;
   position: relative;
   height: var(--vh);
+  z-index: 10;
+  background-color: var(--backgroundColor);
+  isolation: isolate;
 }
 .landing-container {
   width: var(--cWidth);
