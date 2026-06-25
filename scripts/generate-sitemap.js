@@ -1,12 +1,8 @@
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const fs = require('fs');
+const path = require('path');
 
 // Change this to your production URL
-const BASE = process.env.SITE_URL || 'https://kalpicksharma.netlify.app'; // Updated to suggested domain
+const BASE = process.env.SITE_URL || 'https://your-domain.example';
 
 // Load routes from routes.json (fallback to a default set)
 const routesPath = path.join(__dirname, '..', 'routes.json');
