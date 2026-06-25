@@ -1,0 +1,147 @@
+.work {
+  padding: 6rem 2rem;
+  background: var(--background);
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title span {
+  font-size: 3rem;
+  font-weight: 700;
+  position: relative;
+  color: var(--text);
+}
+
+.title span::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.work-item {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.work-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.work-content {
+  padding: 1.5rem;
+}
+
+.work-info {
+  margin-bottom: 1.5rem;
+}
+
+.work-info h2 {
+  font-size: 1.5rem;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.work-info p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.work-info .tools {
+  color: var(--accent);
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.view-project {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--accent);
+  color: var(--background);
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.view-project:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.work-media {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.work-media img,
+.work-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.work-media a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.work-media:hover img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .work {
+    padding: 4rem 1rem;
+  }
+
+  .title span {
+    font-size: 2.5rem;
+  }
+
+  .work-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .work-info h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title span {
+    font-size: 2rem;
+  }
+
+  .work-content {
+    padding: 1rem;
+  }
+}
