@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Change this to your production URL
-const BASE = process.env.SITE_URL || 'https://kalpicksharma.netlify.app';
+const BASE = process.env.SITE_URL || 'https://kalpicksharma.netlify.app'; // Updated to suggested domain
 
 // Load routes from routes.json (fallback to a default set)
 const routesPath = path.join(__dirname, '..', 'routes.json');

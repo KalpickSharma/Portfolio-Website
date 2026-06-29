@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://kalpicksharma.netlify.app/sitemap.xml
+
+Sitemap: https://kalpicksharma.netlify.app
