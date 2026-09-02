@@ -19,6 +19,8 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   --accentColor: #c2a4ff;
+  --accentGlow: rgba(194, 164, 255, 0.4);
+  --accentGradient: linear-gradient(135deg, #c2a4ff 0%, #8c52ff 100%);
   --backgroundColor: #0b080c;
   --vh: 100vh;
   --vh: 100svh;
