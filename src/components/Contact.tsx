@@ -39,67 +39,55 @@ const Contact = () => {
     <div className="contact-section section-container" id="contact">
       <div className="contact-container">
         <h3>Contact</h3>
-        <h2>Let's build something extraordinary together.</h2>
-
-        <div className="contact-grid-main">
-          {/* Left Column: Direct Details & Links */}
-          <div className="contact-info-col">
-            <div className="contact-box">
-              <h4>Email</h4>
-              <p>
-                <a href="mailto:kalpicksharma@gmail.com" data-cursor="disable">
-                  kalpicksharma@gmail.com
-                </a>
-              </p>
-              <h4>Phone</h4>
-              <p>
-                <a href="tel:+918810308974" data-cursor="disable">
-                  +91 8810308974
-                </a>
-              </p>
-            </div>
-
-            <div className="contact-box">
-              <h4>Social</h4>
-              <div className="contact-social-grid">
-                <a
-                  href="https://github.com/KalpickSharma"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  data-cursor="disable"
-                  className="contact-social"
-                >
-                  Github <MdArrowOutward />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/kalpick-sharma-20a759250"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  data-cursor="disable"
-                  className="contact-social"
-                >
-                  LinkedIn <MdArrowOutward />
-                </a>
-                <a
-                  href="https://x.com/Kalpicklogoarts"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  data-cursor="disable"
-                  className="contact-social"
-                >
-                  Twitter <MdArrowOutward />
-                </a>
-                <a
-                  href="https://www.instagram.com/kalpick/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  data-cursor="disable"
-                  className="contact-social"
-                >
-                  Instagram <MdArrowOutward />
-                </a>
-              </div>
-            </div>
+        <div className="contact-flex">
+          <div className="contact-box">
+            <h4>Email</h4>
+            <p>
+              <a href="kalpicksharma@gmail.com" data-cursor="disable">
+                kalpicksharma@gmail.com
+              </a>
+            </p>
+            <h4>Phone</h4>
+            <p>
+              <a href="tel:+91 8810308974" data-cursor="disable">
+                +91 8810308974
+              </a>
+            </p>
+          </div>
+          <div className="contact-box">
+            <h4>Social</h4>
+            <a
+              href="https://github.com/KalpickSharma"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Github <MdArrowOutward />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kalpick-sharma-20a759250"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              LinkedIn <MdArrowOutward />
+            </a>
+            <a
+              href="https://x.com/KalpickSharma"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Twitter <MdArrowOutward />
+            </a>
+            <a
+              href="https://www.instagram.com/kalpick/"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Instagram <MdArrowOutward />
+            </a>
           </div>
 
           {/* Right Column: Interactive Glassmorphic Form */}
